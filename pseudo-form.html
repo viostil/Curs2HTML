@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PSD_FORM</title>
+    <style>
+        body {
+            background: #3f3636;
+            margin: 0px;
+        }
+
+        form {
+            border: 1px dashed red;
+            background: #3f3630;
+            text-align: center;
+            padding: 50px;
+        }
+        input{
+            padding: 20px;
+        }
+        input:first-child{
+            border-radius: 50px 0px 0px 50px;
+            width: 100px;
+            transition: 0.5s;
+        }
+        input:last-child{
+            border-radius: 0px 50px 50px 0px;
+        }
+        input:first-child:focus {
+            width:400px; }
+    </style>
+</head>
+
+<body>
+
+    <form>
+        <input type="text" placeholder="Cautare...">
+        <input type="button" value="Carti">
+        <input type="button" value="Caiete">
+        <input type="button" value="Brosuri">
+        <input type="button" value="&#10097">
+
+    </form>
+
+
+</body>
+
+</html>
