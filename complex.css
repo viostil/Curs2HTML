@@ -1,0 +1,60 @@
+body {
+        background-color: gray;
+        color: white;
+    }
+
+    body>div {
+        background-color: pink;
+        width: 400px;
+        height: 400px;
+    }
+
+    body>div>div {
+        background-color: red;
+        margin: 10px;
+        width: 180px;
+        height: 180px;
+        float: left;
+    }
+
+    body>div>div>div {
+        background-color: green;
+        margin: 5px;
+        width: 80px;
+        height: 80px;
+        float: left;
+    }
+
+    body>div>div:first-child>div:first-child,
+    body>div>div:first-child>div:last-child {
+        background-color: blue;
+        margin: 5px;
+        width: 80px;
+        height: 80px;
+        float: left;
+    }
+
+    body>div>div:last-child>div:last-child,
+    body>div>div:last-child>div:first-child {
+        background-color: blue;
+        margin: 5px;
+        width: 80px;
+        height: 80px;
+        float: left;
+    }
+
+    body>div>div:nth-child(2)>div:nth-child(2) {
+        background-color: blue;
+        margin: 5px;
+        width: 80px;
+        height: 80px;
+        float: left;
+    }
+
+    body>div>div:nth-child(2)>div:nth-child(3):hover+div {
+        background-color: blue;
+        margin: 5px;
+        width: 80px;
+        height: 80px;
+        float: left;
+    }
