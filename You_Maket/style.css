@@ -1,9 +1,22 @@
 body{
   margin: 0px;
-
+font-family: 'Roboto Condensed', sans-serif;
   background-color: #f5f5f5;
 }
 
+.fa{
+  color: gray;
+}
+
+.fa-youtube-play, .sign  {
+  color: red;
+  font-size: 16px;
+}
+.fu {
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
 
 nav{
   background-color: #fff;
@@ -14,27 +27,67 @@ nav{
 
 nav form,
 nav a{
+  text-decoration: none;
   float: left;
+  margin-left: 15px;
 }
 
 nav a:first-child{
-  margin-right: 30px;
+  margin-right: 10px;
 }
 
 nav a:nth-child(2){
-  margin-right: 30px;
+  margin-right: 90px;
+
 }
 
+nav .fa-youtube-play{
+  margin-right: 5px;
+}
+
+nav input{
+  padding: 5px;
+}
+
+nav button{
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+
+}
+
+nav input,
+nav button{
+  float: left;
+}
+
+nav form{
+  width: 55%;
+}
+
+nav input{
+  width: 90%;
+
+  }
+
 nav a:nth-child(3){
-  margin-right: 30px;
+float: right;
+margin-left: 40px;
 }
 nav a:nth-child(4){
-  margin-right: 30px;
+float: right;
+margin-left: 40px;
 }
 nav a:nth-child(5){
-  margin-right: 30px;
+float: right;
+margin-left: 40px;
 }
 
 nav a:nth-child(6){
-  margin-right: 30px;
+float: right;
+margin-left: 30px;
+}
+nav a:last-child{
+    float: right;
 }
