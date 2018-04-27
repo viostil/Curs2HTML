@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TOOGLE</title>
+<style>
+body {
+    background-color: #333;
+}
+
+label{
+    cursor: pointer;
+}
+
+input{
+    display:none;
+}
+
+input:checked+.happy{
+    background-color: green;
+    padding-left: 0px;
+    padding-right: 16px;
+}
+input:checked+.happy::after{
+    content: "\25C9";
+}
+
+.happy::after{
+    content: "\25C9";
+}
+.happy{
+    color:white;
+    background-color: #888;
+    border-radius: 50px;
+    padding-left: 16px;
+}
+
+input:checked+.happy+.sad{
+    display: none;
+
+
+}
+
+
+
+
+
+</style>
+
+
+
+
+</head>
+
+<body>
+
+<label>
+<input type="checkbox"><span class="happy"></span> <span class="sad"></span>
+</label>
+
+
+
+</body>
+
+</html>
